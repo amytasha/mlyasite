@@ -1,0 +1,251 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #0077b6;
+}
+
+/* Hero Section */
+.hero {
+    background-image: linear-gradient(to bottom, #333, #555);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+	background-image: url(img/header.jpg);
+}
+
+.hero h1 {
+    font-size: 70px;
+    margin: 0;
+	color: #34495e;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.nav-links a {
+    font-weight: bold;
+    border-bottom: 2px solid ;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    border-color: #ffdd57;
+}
+
+/* About Section */
+.about {
+    padding: 32px;
+    background-color: #fff;
+    color: #333;
+    margin: 32px auto;
+    max-width: 800px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about h2 {
+	background-color: #d5dbe0;
+    text-align: center;
+    color: #0077b6;
+}
+
+.about ul {
+    margin: 16px 0;
+    padding: 0 16px;
+    list-style-type: disc;
+}
+
+.about ul li {
+    margin-bottom: 12px;
+}
+
+/* Experience Section */
+.experience {
+    padding: 32px;
+    max-width: 1000px;
+    margin: 32px auto;
+}
+
+.experience h2 {
+	background-color: #d5dbe0;
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    text-align: left;
+    padding: 16px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #eaeaea;
+}
+
+/* Education Section */
+.education {
+    padding: 20px;
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 32px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.education h2 {
+	background-color: #d5dbe0;
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 24px;
+}
+
+.education-list, .certifications, .siblings {
+    list-style-type: disc;
+    padding-left: 34px;
+    margin: 16px 0;
+}
+
+.education-list li, .certifications li, .siblings li {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+/* Family Section */
+.family {
+    padding: 5px;
+    max-width: 700px;
+    margin: 32px auto;
+    text-align: center;
+}
+
+.family-container {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.family h2 {
+	background-color: #d5dbe0;
+    color: #0077b6;
+	margin-top: 5px;
+    margin-bottom: 14px;
+}
+
+.family-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+}
+
+.family-member {
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ede6e6;
+}
+
+.family-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    max-width: 150px;
+    height: auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.family-member h3 {
+    margin: 8px 0;
+    color: #333;
+	background-color: #ede6e6;
+}
+
+.family-member p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 32px auto;
+    text-align: center;
+}
+
+.gallery h2 {
+	background-color: #d5dbe0;
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 24px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; 
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 6px;
+    background-color: #333;
+	background-image: url(img/header.jpg);
+    color: #fdfefe;
+    margin-top: 32px;
+}
